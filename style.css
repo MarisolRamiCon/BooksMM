@@ -1,0 +1,54 @@
+/* Soy un comentario */
+/*Cambiar el background (fondo) de la pagina*/
+body{
+    background-color: #0AD3FF;
+    /*color de texto*/
+    color:#070707;
+    /*Fuente del texto*/
+    font-family: 'PT Serif', serif;
+    /*borde gráfico : ancho estilo color*/
+    border: 10px ridge #7855D6;
+}
+
+header{
+    background-image:url("imagenes/bannerhechopormi.png");
+    background-size: 100% 100%;
+    padding: 10%;
+}
+h1{
+    color: #47473Fff;
+    font-family: 'Courgette', cursive;
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    background-color: #246EB9;
+    color: #070707;
+    border-radius: 20px;
+    font-size: 32px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    color: #D11149;
+}
+/* Clases (class) siempre llevan . antes del nombre*/
+img{
+    /*width - ancho del objeto y height- altura del objeto*/
+    width: 300px;
+
+}
+
+/* Clases (class) siempre llevan . antes del nombre*/
+.imagengrande{
+    width: 100px;
+}
+
+.onePiece{
+    width: 500px;
+    border-radius: 30px;
+}
